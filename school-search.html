@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="学校探し - Education Salon">
+    <title>学校探し - Education Salon</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <a href="index.html">Education Salon</a>
+                </div>
+                <div class="nav-toggle" id="nav-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul class="nav-menu" id="nav-menu">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Top</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="hensachi-search.html" class="nav-link">偏差値検索</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="study-articles.html" class="nav-link">学習法記事</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle">受験情報</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="junior-high-exam.html">中学受験</a></li>
+                            <li><a href="high-school-exam.html">高校受験</a></li>
+                            <li><a href="university-exam.html">大学受験</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="development-support.html" class="nav-link">発達支援</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="prefecture-search.html" class="nav-link">都道府県別</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="school-search.html" class="nav-link">学校探し</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">お問い合わせ</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="page-header">
+            <div class="container">
+                <h1 class="page-title">学校探し</h1>
+                <p class="page-subtitle">条件に合った学校を効率的に探すことができます</p>
+            </div>
+        </section>
+
+        <section class="page-content">
+            <div class="container">
+                <div class="search-container">
+                    <h2>学校検索</h2>
+                    <form class="search-form">
+                        <div class="search-group">
+                            <label for="school-level">学校種別</label>
+                            <select id="school-level" name="school-level">
+                                <option value="">選択してください</option>
+                                <option value="elementary">小学校</option>
+                                <option value="junior-high">中学校</option>
+                                <option value="high-school">高等学校</option>
+                                <option value="university">大学</option>
+                            </select>
+                        </div>
+                        <div class="search-group">
+                            <label for="prefecture">都道府県</label>
+                            <select id="prefecture" name="prefecture">
+                                <option value="">選択してください</option>
+                                <option value="tokyo">東京都</option>
+                                <option value="kanagawa">神奈川県</option>
+                                <option value="osaka">大阪府</option>
+                                <option value="kyoto">京都府</option>
+                                <option value="aichi">愛知県</option>
+                            </select>
+                        </div>
+                        <div class="search-group">
+                            <label for="school-type">設置者</label>
+                            <select id="school-type" name="school-type">
+                                <option value="">選択してください</option>
+                                <option value="public">公立</option>
+                                <option value="private">私立</option>
+                                <option value="national">国立</option>
+                            </select>
+                        </div>
+                        <div class="search-group">
+                            <label for="gender">共学・別学</label>
+                            <select id="gender" name="gender">
+                                <option value="">選択してください</option>
+                                <option value="coed">共学</option>
+                                <option value="boys">男子校</option>
+                                <option value="girls">女子校</option>
+                            </select>
+                        </div>
+                        <div class="search-group">
+                            <label for="keyword">キーワード</label>
+                            <input type="text" id="keyword" name="keyword" placeholder="学校名、特色など">
+                        </div>
+                        <button type="submit" class="search-btn">検索</button>
+                    </form>
+                </div>
+
+                <div class="results-container">
+                    <div class="results-header">
+                        <h3>検索結果を表示します</h3>
+                    </div>
+                    <div class="results-list">
+                        <p>上記の検索条件を入力して「検索」ボタンを押してください。</p>
+                    </div>
+                </div>
+
+                <div class="content-section">
+                    <h2>学校選びのポイント</h2>
+                    <div class="features-grid">
+                        <div class="feature-card">
+                            <div class="feature-icon">🎯</div>
+                            <h3>教育方針</h3>
+                            <p>学校の教育理念や方針がお子様に合っているかを確認しましょう。</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon">📚</div>
+                            <h3>カリキュラム</h3>
+                            <p>学習内容や進度、特色ある授業について調べましょう。</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon">🏃</div>
+                            <h3>部活動・課外活動</h3>
+                            <p>お子様の興味のある活動があるかを確認しましょう。</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon">🚌</div>
+                            <h3>通学環境</h3>
+                            <p>通学時間や交通手段、安全性を考慮しましょう。</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon">👥</div>
+                            <h3>学校の雰囲気</h3>
+                            <p>オープンキャンパスや学校見学で実際の雰囲気を感じましょう。</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon">💰</div>
+                            <h3>費用</h3>
+                            <p>授業料や諸費用について事前に確認しましょう。</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content-section">
+                    <h2>関連記事</h2>
+                    <div class="article-grid">
+                        <article class="article-card">
+                            <div class="article-card-content">
+                                <h3>志望校選びのポイント</h3>
+                                <p>お子様に最適な学校を選ぶための重要なポイントをまとめました。</p>
+                                <div class="article-tags">
+                                    <span class="tag">学校選び</span>
+                                    <span class="tag">受験</span>
+                                </div>
+                                <a href="#" class="feature-link">続きを読む</a>
+                            </div>
+                        </article>
+                        <article class="article-card">
+                            <div class="article-card-content">
+                                <h3>学校見学で確認すべきポイント</h3>
+                                <p>学校見学やオープンキャンパスで注目すべき点を解説します。</p>
+                                <div class="article-tags">
+                                    <span class="tag">学校選び</span>
+                                    <span class="tag">学校見学</span>
+                                </div>
+                                <a href="#" class="feature-link">続きを読む</a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Education Salon</h3>
+                    <p>教育に関する情報を総合的にサポートするサイトです。</p>
+                </div>
+                <div class="footer-section">
+                    <h4>主要機能</h4>
+                    <ul>
+                        <li><a href="hensachi-search.html">偏差値検索</a></li>
+                        <li><a href="study-articles.html">学習法記事</a></li>
+                        <li><a href="school-search.html">学校探し</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>受験情報</h4>
+                    <ul>
+                        <li><a href="junior-high-exam.html">中学受験</a></li>
+                        <li><a href="high-school-exam.html">高校受験</a></li>
+                        <li><a href="university-exam.html">大学受験</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>サポート</h4>
+                    <ul>
+                        <li><a href="development-support.html">発達支援</a></li>
+                        <li><a href="contact.html">お問い合わせ</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Education Salon. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

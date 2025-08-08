@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="偏差値検索 - Education Salon">
+    <title>偏差値検索 - Education Salon</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <a href="index.html">Education Salon</a>
+                </div>
+                <div class="nav-toggle" id="nav-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul class="nav-menu" id="nav-menu">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Top</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="hensachi-search.html" class="nav-link">偏差値検索</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="study-articles.html" class="nav-link">学習法記事</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle">受験情報</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="junior-high-exam.html">中学受験</a></li>
+                            <li><a href="high-school-exam.html">高校受験</a></li>
+                            <li><a href="university-exam.html">大学受験</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="development-support.html" class="nav-link">発達支援</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="prefecture-search.html" class="nav-link">都道府県別</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="school-search.html" class="nav-link">学校探し</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">お問い合わせ</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="page-header">
+            <div class="container">
+                <h1 class="page-title">偏差値検索</h1>
+                <p class="page-subtitle">全国の学校の偏差値情報を検索できます</p>
+            </div>
+        </section>
+
+        <section class="page-content">
+            <div class="container">
+                <div class="search-container">
+                    <h2>検索条件を入力してください</h2>
+                    <form class="search-form">
+                        <div class="search-group">
+                            <label for="prefecture">都道府県</label>
+                            <select id="prefecture" name="prefecture">
+                                <option value="">選択してください</option>
+                                <option value="tokyo">東京都</option>
+                                <option value="kanagawa">神奈川県</option>
+                                <option value="osaka">大阪府</option>
+                                <option value="kyoto">京都府</option>
+                                <option value="aichi">愛知県</option>
+                            </select>
+                        </div>
+                        <div class="search-group">
+                            <label for="school-type">学校種別</label>
+                            <select id="school-type" name="school-type">
+                                <option value="">選択してください</option>
+                                <option value="junior-high">中学校</option>
+                                <option value="high-school">高等学校</option>
+                            </select>
+                        </div>
+                        <div class="search-group">
+                            <label for="hensachi-min">偏差値（最低）</label>
+                            <input type="number" id="hensachi-min" name="hensachi-min" min="30" max="80" placeholder="例: 50">
+                        </div>
+                        <div class="search-group">
+                            <label for="hensachi-max">偏差値（最高）</label>
+                            <input type="number" id="hensachi-max" name="hensachi-max" min="30" max="80" placeholder="例: 70">
+                        </div>
+                        <button type="submit" class="search-btn">検索</button>
+                    </form>
+                </div>
+
+                <div class="results-container">
+                    <div class="results-header">
+                        <h3>検索結果を表示します</h3>
+                    </div>
+                    <div class="results-list">
+                        <p>上記の検索条件を入力して「検索」ボタンを押してください。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Education Salon</h3>
+                    <p>教育に関する情報を総合的にサポートするサイトです。</p>
+                </div>
+                <div class="footer-section">
+                    <h4>主要機能</h4>
+                    <ul>
+                        <li><a href="hensachi-search.html">偏差値検索</a></li>
+                        <li><a href="study-articles.html">学習法記事</a></li>
+                        <li><a href="school-search.html">学校探し</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>受験情報</h4>
+                    <ul>
+                        <li><a href="junior-high-exam.html">中学受験</a></li>
+                        <li><a href="high-school-exam.html">高校受験</a></li>
+                        <li><a href="university-exam.html">大学受験</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>サポート</h4>
+                    <ul>
+                        <li><a href="development-support.html">発達支援</a></li>
+                        <li><a href="contact.html">お問い合わせ</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Education Salon. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

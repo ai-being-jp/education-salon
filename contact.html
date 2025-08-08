@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="お問い合わせ - Education Salon">
+    <title>お問い合わせ - Education Salon</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <a href="index.html">Education Salon</a>
+                </div>
+                <div class="nav-toggle" id="nav-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul class="nav-menu" id="nav-menu">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Top</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="hensachi-search.html" class="nav-link">偏差値検索</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="study-articles.html" class="nav-link">学習法記事</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle">受験情報</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="junior-high-exam.html">中学受験</a></li>
+                            <li><a href="high-school-exam.html">高校受験</a></li>
+                            <li><a href="university-exam.html">大学受験</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="development-support.html" class="nav-link">発達支援</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="prefecture-search.html" class="nav-link">都道府県別</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="school-search.html" class="nav-link">学校探し</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">お問い合わせ</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="page-header">
+            <div class="container">
+                <h1 class="page-title">お問い合わせ</h1>
+                <p class="page-subtitle">ご質問やご要望がございましたらお気軽にお問い合わせください</p>
+            </div>
+        </section>
+
+        <section class="page-content">
+            <div class="container">
+                <div class="form-container">
+                    <h2>お問い合わせフォーム</h2>
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <label for="name">お名前 <span style="color: red;">*</span></label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">メールアドレス <span style="color: red;">*</span></label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">電話番号</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="category">お問い合わせ種別 <span style="color: red;">*</span></label>
+                            <select id="category" name="category" required>
+                                <option value="">選択してください</option>
+                                <option value="general">一般的なお問い合わせ</option>
+                                <option value="technical">技術的なお問い合わせ</option>
+                                <option value="content">コンテンツに関するお問い合わせ</option>
+                                <option value="partnership">提携・協力に関するお問い合わせ</option>
+                                <option value="other">その他</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">件名 <span style="color: red;">*</span></label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">お問い合わせ内容 <span style="color: red;">*</span></label>
+                            <textarea id="message" name="message" required placeholder="お問い合わせ内容を詳しくご記入ください"></textarea>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label>
+                                <input type="checkbox" id="privacy" name="privacy" required>
+                                <a href="#" style="color: #2c5aa0;">プライバシーポリシー</a>に同意します <span style="color: red;">*</span>
+                            </label>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">送信する</button>
+                    </form>
+                </div>
+
+                <div class="content-section" style="margin-top: 3rem;">
+                    <h2>よくあるご質問</h2>
+                    <div class="faq-list">
+                        <div class="faq-item">
+                            <h3>Q. 偏差値データはどのくらいの頻度で更新されますか？</h3>
+                            <p>A. 偏差値データは年2回（春・秋）に更新しており、最新の入試結果を反映しています。</p>
+                        </div>
+                        
+                        <div class="faq-item">
+                            <h3>Q. 学習法記事の内容について質問があります</h3>
+                            <p>A. 記事に関するご質問は上記のお問い合わせフォームからお送りください。専門スタッフが回答いたします。</p>
+                        </div>
+                        
+                        <div class="faq-item">
+                            <h3>Q. 学校情報の追加や修正を依頼できますか？</h3>
+                            <p>A. はい、学校情報の追加・修正のご依頼を承っております。お問い合わせフォームから詳細をお送りください。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Education Salon</h3>
+                    <p>教育に関する情報を総合的にサポートするサイトです。</p>
+                </div>
+                <div class="footer-section">
+                    <h4>主要機能</h4>
+                    <ul>
+                        <li><a href="hensachi-search.html">偏差値検索</a></li>
+                        <li><a href="study-articles.html">学習法記事</a></li>
+                        <li><a href="school-search.html">学校探し</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>受験情報</h4>
+                    <ul>
+                        <li><a href="junior-high-exam.html">中学受験</a></li>
+                        <li><a href="high-school-exam.html">高校受験</a></li>
+                        <li><a href="university-exam.html">大学受験</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>サポート</h4>
+                    <ul>
+                        <li><a href="development-support.html">発達支援</a></li>
+                        <li><a href="contact.html">お問い合わせ</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Education Salon. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
