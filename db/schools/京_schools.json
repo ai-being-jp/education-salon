@@ -1,0 +1,278 @@
+{
+  "prefecture": "京都府",
+  "total_schools": 5,
+  "schools": [
+    {
+      "name": "京県立A高等学校",
+      "prefecture": "京都府",
+      "type": "県立",
+      "hensachi": 56,
+      "philosophy": "京県立A高等学校は、生徒一人ひとりの個性を大切にし、確かな学力と豊かな人間性を育む教育を実践しています。",
+      "academic_records": {
+        "university_advancement_rate": 85,
+        "notable_universities": [
+          "東京大学",
+          "早稲田大学",
+          "慶應義塾大学",
+          "明治大学"
+        ],
+        "recent_achievements": "令和4年度大学合格実績: 国公立大学20名、私立大学50名"
+      },
+      "entrance_exam_info": {
+        "exam_date": "令和6年2月10日",
+        "subjects": [
+          "国語",
+          "数学",
+          "英語",
+          "理科",
+          "社会"
+        ],
+        "application_period": "令和5年12月1日～12月15日",
+        "capacity": 200
+      },
+      "open_campus": {
+        "dates": [
+          "令和5年7月15日",
+          "令和5年8月20日"
+        ],
+        "programs": [
+          "学校説明会",
+          "授業体験",
+          "部活動見学",
+          "個別相談"
+        ],
+        "registration_required": true
+      },
+      "official_images": [
+        "https://example.com/schools/京都府/京県立A高等学校/main.jpg",
+        "https://example.com/schools/京都府/京県立A高等学校/campus.jpg",
+        "https://example.com/schools/京都府/京県立A高等学校/facilities.jpg"
+      ],
+      "contact_info": {
+        "address": "京都府○○市○○町1-2-3",
+        "phone": "03-1000-2000",
+        "website": "https://www.京県立A.ed.jp",
+        "email": "info@京県立A.ed.jp"
+      },
+      "last_updated": "2025-08-08T17:05:32.037890"
+    },
+    {
+      "name": "京私立B高等学校",
+      "prefecture": "京都府",
+      "type": "私立",
+      "hensachi": 61,
+      "philosophy": "京私立B高等学校は、生徒一人ひとりの個性を大切にし、確かな学力と豊かな人間性を育む教育を実践しています。",
+      "academic_records": {
+        "university_advancement_rate": 87,
+        "notable_universities": [
+          "東京大学",
+          "早稲田大学",
+          "慶應義塾大学",
+          "明治大学"
+        ],
+        "recent_achievements": "令和5年度大学合格実績: 国公立大学23名、私立大学60名"
+      },
+      "entrance_exam_info": {
+        "exam_date": "令和6年3月11日",
+        "subjects": [
+          "国語",
+          "数学",
+          "英語",
+          "理科",
+          "社会"
+        ],
+        "application_period": "令和5年12月2日～12月16日",
+        "capacity": 240
+      },
+      "open_campus": {
+        "dates": [
+          "令和5年8月17日",
+          "令和5年9月23日"
+        ],
+        "programs": [
+          "学校説明会",
+          "授業体験",
+          "部活動見学",
+          "個別相談"
+        ],
+        "registration_required": true
+      },
+      "official_images": [
+        "https://example.com/schools/京都府/京私立B高等学校/main.jpg",
+        "https://example.com/schools/京都府/京私立B高等学校/campus.jpg",
+        "https://example.com/schools/京都府/京私立B高等学校/facilities.jpg"
+      ],
+      "contact_info": {
+        "address": "京都府○○市○○町1-2-3",
+        "phone": "04-1100-2200",
+        "website": "https://www.京私立B.ed.jp",
+        "email": "info@京私立B.ed.jp"
+      },
+      "last_updated": "2025-08-08T17:05:32.037912"
+    },
+    {
+      "name": "京国立C高等学校",
+      "prefecture": "京都府",
+      "type": "国立",
+      "hensachi": 76,
+      "philosophy": "京国立C高等学校は、生徒一人ひとりの個性を大切にし、確かな学力と豊かな人間性を育む教育を実践しています。",
+      "academic_records": {
+        "university_advancement_rate": 89,
+        "notable_universities": [
+          "東京大学",
+          "早稲田大学",
+          "慶應義塾大学",
+          "明治大学"
+        ],
+        "recent_achievements": "令和6年度大学合格実績: 国公立大学26名、私立大学70名"
+      },
+      "entrance_exam_info": {
+        "exam_date": "令和6年4月12日",
+        "subjects": [
+          "国語",
+          "数学",
+          "英語",
+          "理科",
+          "社会"
+        ],
+        "application_period": "令和5年12月3日～12月17日",
+        "capacity": 280
+      },
+      "open_campus": {
+        "dates": [
+          "令和5年9月19日",
+          "令和5年10月26日"
+        ],
+        "programs": [
+          "学校説明会",
+          "授業体験",
+          "部活動見学",
+          "個別相談"
+        ],
+        "registration_required": true
+      },
+      "official_images": [
+        "https://example.com/schools/京都府/京国立C高等学校/main.jpg",
+        "https://example.com/schools/京都府/京国立C高等学校/campus.jpg",
+        "https://example.com/schools/京都府/京国立C高等学校/facilities.jpg"
+      ],
+      "contact_info": {
+        "address": "京都府○○市○○町1-2-3",
+        "phone": "05-1200-2400",
+        "website": "https://www.京国立C.ed.jp",
+        "email": "info@京国立C.ed.jp"
+      },
+      "last_updated": "2025-08-08T17:05:32.037924"
+    },
+    {
+      "name": "京県立D高等学校",
+      "prefecture": "京都府",
+      "type": "県立",
+      "hensachi": 71,
+      "philosophy": "京県立D高等学校は、生徒一人ひとりの個性を大切にし、確かな学力と豊かな人間性を育む教育を実践しています。",
+      "academic_records": {
+        "university_advancement_rate": 91,
+        "notable_universities": [
+          "東京大学",
+          "早稲田大学",
+          "慶應義塾大学",
+          "明治大学"
+        ],
+        "recent_achievements": "令和7年度大学合格実績: 国公立大学29名、私立大学80名"
+      },
+      "entrance_exam_info": {
+        "exam_date": "令和6年5月13日",
+        "subjects": [
+          "国語",
+          "数学",
+          "英語",
+          "理科",
+          "社会"
+        ],
+        "application_period": "令和5年12月4日～12月18日",
+        "capacity": 320
+      },
+      "open_campus": {
+        "dates": [
+          "令和5年10月21日",
+          "令和5年11月29日"
+        ],
+        "programs": [
+          "学校説明会",
+          "授業体験",
+          "部活動見学",
+          "個別相談"
+        ],
+        "registration_required": true
+      },
+      "official_images": [
+        "https://example.com/schools/京都府/京県立D高等学校/main.jpg",
+        "https://example.com/schools/京都府/京県立D高等学校/campus.jpg",
+        "https://example.com/schools/京都府/京県立D高等学校/facilities.jpg"
+      ],
+      "contact_info": {
+        "address": "京都府○○市○○町1-2-3",
+        "phone": "06-1300-2600",
+        "website": "https://www.京県立D.ed.jp",
+        "email": "info@京県立D.ed.jp"
+      },
+      "last_updated": "2025-08-08T17:05:32.037936"
+    },
+    {
+      "name": "京私立E高等学校",
+      "prefecture": "京都府",
+      "type": "私立",
+      "hensachi": 75,
+      "philosophy": "京私立E高等学校は、生徒一人ひとりの個性を大切にし、確かな学力と豊かな人間性を育む教育を実践しています。",
+      "academic_records": {
+        "university_advancement_rate": 93,
+        "notable_universities": [
+          "東京大学",
+          "早稲田大学",
+          "慶應義塾大学",
+          "明治大学"
+        ],
+        "recent_achievements": "令和8年度大学合格実績: 国公立大学32名、私立大学90名"
+      },
+      "entrance_exam_info": {
+        "exam_date": "令和6年6月14日",
+        "subjects": [
+          "国語",
+          "数学",
+          "英語",
+          "理科",
+          "社会"
+        ],
+        "application_period": "令和5年12月5日～12月19日",
+        "capacity": 360
+      },
+      "open_campus": {
+        "dates": [
+          "令和5年11月23日",
+          "令和5年12月32日"
+        ],
+        "programs": [
+          "学校説明会",
+          "授業体験",
+          "部活動見学",
+          "個別相談"
+        ],
+        "registration_required": true
+      },
+      "official_images": [
+        "https://example.com/schools/京都府/京私立E高等学校/main.jpg",
+        "https://example.com/schools/京都府/京私立E高等学校/campus.jpg",
+        "https://example.com/schools/京都府/京私立E高等学校/facilities.jpg"
+      ],
+      "contact_info": {
+        "address": "京都府○○市○○町1-2-3",
+        "phone": "07-1400-2800",
+        "website": "https://www.京私立E.ed.jp",
+        "email": "info@京私立E.ed.jp"
+      },
+      "last_updated": "2025-08-08T17:05:32.037946"
+    }
+  ],
+  "collection_date": "2025-08-08T17:05:32.037949",
+  "data_source": "placeholder"
+}
