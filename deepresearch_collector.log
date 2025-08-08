@@ -1,0 +1,246 @@
+2025-08-08 17:05:06,993 - INFO - Starting DeepResearch School Data Collection
+2025-08-08 17:05:06,993 - WARNING - DEEPRESEARCH_API_KEY environment variable not set.
+2025-08-08 17:05:06,993 - WARNING - Running in placeholder mode - generating sample data.
+2025-08-08 17:05:06,993 - INFO - Starting data collection for 47 prefectures...
+2025-08-08 17:05:06,993 - INFO - Processing 北海道 (1/47)
+2025-08-08 17:05:06,993 - INFO - Collecting data for 北海道...
+2025-08-08 17:05:06,994 - WARNING - DeepResearch API key not found. Using placeholder data.
+2025-08-08 17:05:06,994 - INFO - Successfully collected data for 北海道: 5 schools
+2025-08-08 17:05:06,994 - INFO - Saved data for 北海道 to db/schools/北海道_schools.json
+2025-08-08 17:05:07,995 - INFO - Processing 青森県 (2/47)
+2025-08-08 17:05:07,995 - INFO - Collecting data for 青森県...
+2025-08-08 17:05:07,995 - WARNING - DeepResearch API key not found. Using placeholder data.
+2025-08-08 17:05:07,995 - INFO - Successfully collected data for 青森県: 5 schools
+2025-08-08 17:05:07,996 - INFO - Saved data for 青森県 to db/schools/青森_schools.json
+2025-08-08 17:05:08,997 - INFO - Processing 岩手県 (3/47)
+2025-08-08 17:05:08,997 - INFO - Collecting data for 岩手県...
+2025-08-08 17:05:08,997 - WARNING - DeepResearch API key not found. Using placeholder data.
+2025-08-08 17:05:08,997 - INFO - Successfully collected data for 岩手県: 5 schools
+2025-08-08 17:05:08,998 - INFO - Saved data for 岩手県 to db/schools/岩手_schools.json
+2025-08-08 17:05:09,998 - INFO - Processing 宮城県 (4/47)
+2025-08-08 17:05:09,999 - INFO - Collecting data for 宮城県...
+2025-08-08 17:05:09,999 - WARNING - DeepResearch API key not found. Using placeholder data.
+2025-08-08 17:05:09,999 - INFO - Successfully collected data for 宮城県: 5 schools
+2025-08-08 17:05:10,000 - INFO - Saved data for 宮城県 to db/schools/宮城_schools.json
+2025-08-08 17:05:11,000 - INFO - Processing 秋田県 (5/47)
+2025-08-08 17:05:11,000 - INFO - Collecting data for 秋田県...
+2025-08-08 17:05:11,001 - WARNING - DeepResearch API key not found. Using placeholder data.
+2025-08-08 17:05:11,001 - INFO - Successfully collected data for 秋田県: 5 schools
+2025-08-08 17:05:11,002 - INFO - Saved data for 秋田県 to db/schools/秋田_schools.json
+2025-08-08 17:05:12,002 - INFO - Processing 山形県 (6/47)
+2025-08-08 17:05:12,002 - INFO - Collecting data for 山形県...
+2025-08-08 17:05:12,002 - WARNING - DeepResearch API key not found. Using placeholder data.
+2025-08-08 17:05:12,002 - INFO - Successfully collected data for 山形県: 5 schools
+2025-08-08 17:05:12,003 - INFO - Saved data for 山形県 to db/schools/山形_schools.json
+2025-08-08 17:05:13,004 - INFO - Processing 福島県 (7/47)
+2025-08-08 17:05:13,004 - INFO - Collecting data for 福島県...
+2025-08-08 17:05:13,004 - WARNING - DeepResearch API key not found. Using placeholder data.
+2025-08-08 17:05:13,004 - INFO - Successfully collected data for 福島県: 5 schools
+2025-08-08 17:05:13,005 - INFO - Saved data for 福島県 to db/schools/福島_schools.json
+2025-08-08 17:05:14,006 - INFO - Processing 茨城県 (8/47)
+2025-08-08 17:05:14,006 - INFO - Collecting data for 茨城県...
+2025-08-08 17:05:14,006 - WARNING - DeepResearch API key not found. Using placeholder data.
+2025-08-08 17:05:14,006 - INFO - Successfully collected data for 茨城県: 5 schools
+2025-08-08 17:05:14,007 - INFO - Saved data for 茨城県 to db/schools/茨城_schools.json
+2025-08-08 17:05:15,007 - INFO - Processing 栃木県 (9/47)
+2025-08-08 17:05:15,007 - INFO - Collecting data for 栃木県...
+2025-08-08 17:05:15,008 - WARNING - DeepResearch API key not found. Using placeholder data.
+2025-08-08 17:05:15,008 - INFO - Successfully collected data for 栃木県: 5 schools
+2025-08-08 17:05:15,008 - INFO - Saved data for 栃木県 to db/schools/栃木_schools.json
+2025-08-08 17:05:16,009 - INFO - Processing 群馬県 (10/47)
+2025-08-08 17:05:16,009 - INFO - Collecting data for 群馬県...
+2025-08-08 17:05:16,009 - WARNING - DeepResearch API key not found. Using placeholder data.
+2025-08-08 17:05:16,009 - INFO - Successfully collected data for 群馬県: 5 schools
+2025-08-08 17:05:16,010 - INFO - Saved data for 群馬県 to db/schools/群馬_schools.json
+2025-08-08 17:05:17,011 - INFO - Processing 埼玉県 (11/47)
+2025-08-08 17:05:17,011 - INFO - Collecting data for 埼玉県...
+2025-08-08 17:05:17,011 - WARNING - DeepResearch API key not found. Using placeholder data.
+2025-08-08 17:05:17,011 - INFO - Successfully collected data for 埼玉県: 5 schools
+2025-08-08 17:05:17,012 - INFO - Saved data for 埼玉県 to db/schools/埼玉_schools.json
+2025-08-08 17:05:18,012 - INFO - Processing 千葉県 (12/47)
+2025-08-08 17:05:18,013 - INFO - Collecting data for 千葉県...
+2025-08-08 17:05:18,013 - WARNING - DeepResearch API key not found. Using placeholder data.
+2025-08-08 17:05:18,013 - INFO - Successfully collected data for 千葉県: 5 schools
+2025-08-08 17:05:18,014 - INFO - Saved data for 千葉県 to db/schools/千葉_schools.json
+2025-08-08 17:05:19,014 - INFO - Processing 東京都 (13/47)
+2025-08-08 17:05:19,015 - INFO - Collecting data for 東京都...
+2025-08-08 17:05:19,015 - WARNING - DeepResearch API key not found. Using placeholder data.
+2025-08-08 17:05:19,015 - INFO - Successfully collected data for 東京都: 5 schools
+2025-08-08 17:05:19,016 - INFO - Saved data for 東京都 to db/schools/東京_schools.json
+2025-08-08 17:05:20,016 - INFO - Processing 神奈川県 (14/47)
+2025-08-08 17:05:20,016 - INFO - Collecting data for 神奈川県...
+2025-08-08 17:05:20,017 - WARNING - DeepResearch API key not found. Using placeholder data.
+2025-08-08 17:05:20,017 - INFO - Successfully collected data for 神奈川県: 5 schools
+2025-08-08 17:05:20,018 - INFO - Saved data for 神奈川県 to db/schools/神奈川_schools.json
+2025-08-08 17:05:21,018 - INFO - Processing 新潟県 (15/47)
+2025-08-08 17:05:21,018 - INFO - Collecting data for 新潟県...
+2025-08-08 17:05:21,018 - WARNING - DeepResearch API key not found. Using placeholder data.
+2025-08-08 17:05:21,019 - INFO - Successfully collected data for 新潟県: 5 schools
+2025-08-08 17:05:21,020 - INFO - Saved data for 新潟県 to db/schools/新潟_schools.json
+2025-08-08 17:05:22,020 - INFO - Processing 富山県 (16/47)
+2025-08-08 17:05:22,020 - INFO - Collecting data for 富山県...
+2025-08-08 17:05:22,020 - WARNING - DeepResearch API key not found. Using placeholder data.
+2025-08-08 17:05:22,020 - INFO - Successfully collected data for 富山県: 5 schools
+2025-08-08 17:05:22,021 - INFO - Saved data for 富山県 to db/schools/富山_schools.json
+2025-08-08 17:05:23,022 - INFO - Processing 石川県 (17/47)
+2025-08-08 17:05:23,022 - INFO - Collecting data for 石川県...
+2025-08-08 17:05:23,022 - WARNING - DeepResearch API key not found. Using placeholder data.
+2025-08-08 17:05:23,022 - INFO - Successfully collected data for 石川県: 5 schools
+2025-08-08 17:05:23,023 - INFO - Saved data for 石川県 to db/schools/石川_schools.json
+2025-08-08 17:05:24,024 - INFO - Processing 福井県 (18/47)
+2025-08-08 17:05:24,024 - INFO - Collecting data for 福井県...
+2025-08-08 17:05:24,024 - WARNING - DeepResearch API key not found. Using placeholder data.
+2025-08-08 17:05:24,024 - INFO - Successfully collected data for 福井県: 5 schools
+2025-08-08 17:05:24,025 - INFO - Saved data for 福井県 to db/schools/福井_schools.json
+2025-08-08 17:05:25,025 - INFO - Processing 山梨県 (19/47)
+2025-08-08 17:05:25,025 - INFO - Collecting data for 山梨県...
+2025-08-08 17:05:25,025 - WARNING - DeepResearch API key not found. Using placeholder data.
+2025-08-08 17:05:25,026 - INFO - Successfully collected data for 山梨県: 5 schools
+2025-08-08 17:05:25,026 - INFO - Saved data for 山梨県 to db/schools/山梨_schools.json
+2025-08-08 17:05:26,027 - INFO - Processing 長野県 (20/47)
+2025-08-08 17:05:26,027 - INFO - Collecting data for 長野県...
+2025-08-08 17:05:26,027 - WARNING - DeepResearch API key not found. Using placeholder data.
+2025-08-08 17:05:26,027 - INFO - Successfully collected data for 長野県: 5 schools
+2025-08-08 17:05:26,028 - INFO - Saved data for 長野県 to db/schools/長野_schools.json
+2025-08-08 17:05:27,028 - INFO - Processing 岐阜県 (21/47)
+2025-08-08 17:05:27,029 - INFO - Collecting data for 岐阜県...
+2025-08-08 17:05:27,029 - WARNING - DeepResearch API key not found. Using placeholder data.
+2025-08-08 17:05:27,029 - INFO - Successfully collected data for 岐阜県: 5 schools
+2025-08-08 17:05:27,030 - INFO - Saved data for 岐阜県 to db/schools/岐阜_schools.json
+2025-08-08 17:05:28,030 - INFO - Processing 静岡県 (22/47)
+2025-08-08 17:05:28,030 - INFO - Collecting data for 静岡県...
+2025-08-08 17:05:28,030 - WARNING - DeepResearch API key not found. Using placeholder data.
+2025-08-08 17:05:28,030 - INFO - Successfully collected data for 静岡県: 5 schools
+2025-08-08 17:05:28,031 - INFO - Saved data for 静岡県 to db/schools/静岡_schools.json
+2025-08-08 17:05:29,031 - INFO - Processing 愛知県 (23/47)
+2025-08-08 17:05:29,032 - INFO - Collecting data for 愛知県...
+2025-08-08 17:05:29,032 - WARNING - DeepResearch API key not found. Using placeholder data.
+2025-08-08 17:05:29,032 - INFO - Successfully collected data for 愛知県: 5 schools
+2025-08-08 17:05:29,033 - INFO - Saved data for 愛知県 to db/schools/愛知_schools.json
+2025-08-08 17:05:30,033 - INFO - Processing 三重県 (24/47)
+2025-08-08 17:05:30,033 - INFO - Collecting data for 三重県...
+2025-08-08 17:05:30,034 - WARNING - DeepResearch API key not found. Using placeholder data.
+2025-08-08 17:05:30,034 - INFO - Successfully collected data for 三重県: 5 schools
+2025-08-08 17:05:30,035 - INFO - Saved data for 三重県 to db/schools/三重_schools.json
+2025-08-08 17:05:31,035 - INFO - Processing 滋賀県 (25/47)
+2025-08-08 17:05:31,035 - INFO - Collecting data for 滋賀県...
+2025-08-08 17:05:31,035 - WARNING - DeepResearch API key not found. Using placeholder data.
+2025-08-08 17:05:31,036 - INFO - Successfully collected data for 滋賀県: 5 schools
+2025-08-08 17:05:31,036 - INFO - Saved data for 滋賀県 to db/schools/滋賀_schools.json
+2025-08-08 17:05:32,037 - INFO - Processing 京都府 (26/47)
+2025-08-08 17:05:32,037 - INFO - Collecting data for 京都府...
+2025-08-08 17:05:32,037 - WARNING - DeepResearch API key not found. Using placeholder data.
+2025-08-08 17:05:32,037 - INFO - Successfully collected data for 京都府: 5 schools
+2025-08-08 17:05:32,038 - INFO - Saved data for 京都府 to db/schools/京_schools.json
+2025-08-08 17:05:33,039 - INFO - Processing 大阪府 (27/47)
+2025-08-08 17:05:33,039 - INFO - Collecting data for 大阪府...
+2025-08-08 17:05:33,039 - WARNING - DeepResearch API key not found. Using placeholder data.
+2025-08-08 17:05:33,039 - INFO - Successfully collected data for 大阪府: 5 schools
+2025-08-08 17:05:33,040 - INFO - Saved data for 大阪府 to db/schools/大阪_schools.json
+2025-08-08 17:05:34,040 - INFO - Processing 兵庫県 (28/47)
+2025-08-08 17:05:34,041 - INFO - Collecting data for 兵庫県...
+2025-08-08 17:05:34,041 - WARNING - DeepResearch API key not found. Using placeholder data.
+2025-08-08 17:05:34,041 - INFO - Successfully collected data for 兵庫県: 5 schools
+2025-08-08 17:05:34,042 - INFO - Saved data for 兵庫県 to db/schools/兵庫_schools.json
+2025-08-08 17:05:35,042 - INFO - Processing 奈良県 (29/47)
+2025-08-08 17:05:35,042 - INFO - Collecting data for 奈良県...
+2025-08-08 17:05:35,042 - WARNING - DeepResearch API key not found. Using placeholder data.
+2025-08-08 17:05:35,043 - INFO - Successfully collected data for 奈良県: 5 schools
+2025-08-08 17:05:35,044 - INFO - Saved data for 奈良県 to db/schools/奈良_schools.json
+2025-08-08 17:05:36,044 - INFO - Processing 和歌山県 (30/47)
+2025-08-08 17:05:36,044 - INFO - Collecting data for 和歌山県...
+2025-08-08 17:05:36,044 - WARNING - DeepResearch API key not found. Using placeholder data.
+2025-08-08 17:05:36,044 - INFO - Successfully collected data for 和歌山県: 5 schools
+2025-08-08 17:05:36,045 - INFO - Saved data for 和歌山県 to db/schools/和歌山_schools.json
+2025-08-08 17:05:37,045 - INFO - Processing 鳥取県 (31/47)
+2025-08-08 17:05:37,045 - INFO - Collecting data for 鳥取県...
+2025-08-08 17:05:37,045 - WARNING - DeepResearch API key not found. Using placeholder data.
+2025-08-08 17:05:37,046 - INFO - Successfully collected data for 鳥取県: 5 schools
+2025-08-08 17:05:37,046 - INFO - Saved data for 鳥取県 to db/schools/鳥取_schools.json
+2025-08-08 17:05:38,046 - INFO - Processing 島根県 (32/47)
+2025-08-08 17:05:38,047 - INFO - Collecting data for 島根県...
+2025-08-08 17:05:38,047 - WARNING - DeepResearch API key not found. Using placeholder data.
+2025-08-08 17:05:38,047 - INFO - Successfully collected data for 島根県: 5 schools
+2025-08-08 17:05:38,048 - INFO - Saved data for 島根県 to db/schools/島根_schools.json
+2025-08-08 17:05:39,048 - INFO - Processing 岡山県 (33/47)
+2025-08-08 17:05:39,048 - INFO - Collecting data for 岡山県...
+2025-08-08 17:05:39,048 - WARNING - DeepResearch API key not found. Using placeholder data.
+2025-08-08 17:05:39,048 - INFO - Successfully collected data for 岡山県: 5 schools
+2025-08-08 17:05:39,049 - INFO - Saved data for 岡山県 to db/schools/岡山_schools.json
+2025-08-08 17:05:40,050 - INFO - Processing 広島県 (34/47)
+2025-08-08 17:05:40,050 - INFO - Collecting data for 広島県...
+2025-08-08 17:05:40,050 - WARNING - DeepResearch API key not found. Using placeholder data.
+2025-08-08 17:05:40,050 - INFO - Successfully collected data for 広島県: 5 schools
+2025-08-08 17:05:40,051 - INFO - Saved data for 広島県 to db/schools/広島_schools.json
+2025-08-08 17:05:41,052 - INFO - Processing 山口県 (35/47)
+2025-08-08 17:05:41,052 - INFO - Collecting data for 山口県...
+2025-08-08 17:05:41,052 - WARNING - DeepResearch API key not found. Using placeholder data.
+2025-08-08 17:05:41,052 - INFO - Successfully collected data for 山口県: 5 schools
+2025-08-08 17:05:41,053 - INFO - Saved data for 山口県 to db/schools/山口_schools.json
+2025-08-08 17:05:42,054 - INFO - Processing 徳島県 (36/47)
+2025-08-08 17:05:42,054 - INFO - Collecting data for 徳島県...
+2025-08-08 17:05:42,054 - WARNING - DeepResearch API key not found. Using placeholder data.
+2025-08-08 17:05:42,054 - INFO - Successfully collected data for 徳島県: 5 schools
+2025-08-08 17:05:42,055 - INFO - Saved data for 徳島県 to db/schools/徳島_schools.json
+2025-08-08 17:05:43,056 - INFO - Processing 香川県 (37/47)
+2025-08-08 17:05:43,056 - INFO - Collecting data for 香川県...
+2025-08-08 17:05:43,056 - WARNING - DeepResearch API key not found. Using placeholder data.
+2025-08-08 17:05:43,056 - INFO - Successfully collected data for 香川県: 5 schools
+2025-08-08 17:05:43,057 - INFO - Saved data for 香川県 to db/schools/香川_schools.json
+2025-08-08 17:05:44,057 - INFO - Processing 愛媛県 (38/47)
+2025-08-08 17:05:44,057 - INFO - Collecting data for 愛媛県...
+2025-08-08 17:05:44,058 - WARNING - DeepResearch API key not found. Using placeholder data.
+2025-08-08 17:05:44,058 - INFO - Successfully collected data for 愛媛県: 5 schools
+2025-08-08 17:05:44,059 - INFO - Saved data for 愛媛県 to db/schools/愛媛_schools.json
+2025-08-08 17:05:45,059 - INFO - Processing 高知県 (39/47)
+2025-08-08 17:05:45,059 - INFO - Collecting data for 高知県...
+2025-08-08 17:05:45,059 - WARNING - DeepResearch API key not found. Using placeholder data.
+2025-08-08 17:05:45,060 - INFO - Successfully collected data for 高知県: 5 schools
+2025-08-08 17:05:45,061 - INFO - Saved data for 高知県 to db/schools/高知_schools.json
+2025-08-08 17:05:46,061 - INFO - Processing 福岡県 (40/47)
+2025-08-08 17:05:46,061 - INFO - Collecting data for 福岡県...
+2025-08-08 17:05:46,061 - WARNING - DeepResearch API key not found. Using placeholder data.
+2025-08-08 17:05:46,062 - INFO - Successfully collected data for 福岡県: 5 schools
+2025-08-08 17:05:46,062 - INFO - Saved data for 福岡県 to db/schools/福岡_schools.json
+2025-08-08 17:05:47,063 - INFO - Processing 佐賀県 (41/47)
+2025-08-08 17:05:47,063 - INFO - Collecting data for 佐賀県...
+2025-08-08 17:05:47,063 - WARNING - DeepResearch API key not found. Using placeholder data.
+2025-08-08 17:05:47,063 - INFO - Successfully collected data for 佐賀県: 5 schools
+2025-08-08 17:05:47,064 - INFO - Saved data for 佐賀県 to db/schools/佐賀_schools.json
+2025-08-08 17:05:48,064 - INFO - Processing 長崎県 (42/47)
+2025-08-08 17:05:48,065 - INFO - Collecting data for 長崎県...
+2025-08-08 17:05:48,065 - WARNING - DeepResearch API key not found. Using placeholder data.
+2025-08-08 17:05:48,065 - INFO - Successfully collected data for 長崎県: 5 schools
+2025-08-08 17:05:48,066 - INFO - Saved data for 長崎県 to db/schools/長崎_schools.json
+2025-08-08 17:05:49,066 - INFO - Processing 熊本県 (43/47)
+2025-08-08 17:05:49,066 - INFO - Collecting data for 熊本県...
+2025-08-08 17:05:49,066 - WARNING - DeepResearch API key not found. Using placeholder data.
+2025-08-08 17:05:49,066 - INFO - Successfully collected data for 熊本県: 5 schools
+2025-08-08 17:05:49,067 - INFO - Saved data for 熊本県 to db/schools/熊本_schools.json
+2025-08-08 17:05:50,068 - INFO - Processing 大分県 (44/47)
+2025-08-08 17:05:50,068 - INFO - Collecting data for 大分県...
+2025-08-08 17:05:50,068 - WARNING - DeepResearch API key not found. Using placeholder data.
+2025-08-08 17:05:50,068 - INFO - Successfully collected data for 大分県: 5 schools
+2025-08-08 17:05:50,069 - INFO - Saved data for 大分県 to db/schools/大分_schools.json
+2025-08-08 17:05:51,069 - INFO - Processing 宮崎県 (45/47)
+2025-08-08 17:05:51,070 - INFO - Collecting data for 宮崎県...
+2025-08-08 17:05:51,070 - WARNING - DeepResearch API key not found. Using placeholder data.
+2025-08-08 17:05:51,070 - INFO - Successfully collected data for 宮崎県: 5 schools
+2025-08-08 17:05:51,071 - INFO - Saved data for 宮崎県 to db/schools/宮崎_schools.json
+2025-08-08 17:05:52,071 - INFO - Processing 鹿児島県 (46/47)
+2025-08-08 17:05:52,072 - INFO - Collecting data for 鹿児島県...
+2025-08-08 17:05:52,072 - WARNING - DeepResearch API key not found. Using placeholder data.
+2025-08-08 17:05:52,072 - INFO - Successfully collected data for 鹿児島県: 5 schools
+2025-08-08 17:05:52,073 - INFO - Saved data for 鹿児島県 to db/schools/鹿児島_schools.json
+2025-08-08 17:05:53,073 - INFO - Processing 沖縄県 (47/47)
+2025-08-08 17:05:53,073 - INFO - Collecting data for 沖縄県...
+2025-08-08 17:05:53,073 - WARNING - DeepResearch API key not found. Using placeholder data.
+2025-08-08 17:05:53,074 - INFO - Successfully collected data for 沖縄県: 5 schools
+2025-08-08 17:05:53,075 - INFO - Saved data for 沖縄県 to db/schools/沖縄_schools.json
+2025-08-08 17:05:53,075 - INFO - Collection Summary:
+2025-08-08 17:05:53,075 - INFO -   Total prefectures: 47
+2025-08-08 17:05:53,075 - INFO -   Successful: 47
+2025-08-08 17:05:53,075 - INFO -   Failed: 0
+2025-08-08 17:05:53,075 - INFO -   Success rate: 100.0%
+2025-08-08 17:05:53,075 - INFO -   Summary saved to: db/schools/collection_summary.json
+2025-08-08 17:05:53,076 - INFO - Data collection completed!
